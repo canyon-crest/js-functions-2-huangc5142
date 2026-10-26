@@ -94,9 +94,9 @@ function myAdder(x, y) {
 
 function distance(x1, y1, x2, y2) {
   // Write your code here
-  x_distance = (x2 - x1) **2;
-  y_distance = (y2 - y1) **2;
-  total_distance = x_distance + y_distance;
+  let xdistance = (x2 - x1) **2;
+  let ydistance = (y2 - y1) **2;
+  let total_distance = xdistance + ydistance;
   return Math.sqrt(total_distance.toFixed(2));
 }
 
